@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url> http://172.31.18.29:8081/repository/ebay-bts-releases/</url>
+	      <name>Landmark Technologies Snapshots Nexus Repository</name>
+	      <url>http://sonarnexus.ollegroup.com:8082/repository/ebay-bts-snapshot/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.18.29:8081/repository/ebay-bts-snapshot/</url>
+	      <name>Landmark Technologies Releases Nexus Repository </name>
+	      <url>http://sonarnexus.ollegroup.com:8082/repository/ebay-bts-releases/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
