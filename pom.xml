@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://landmarktechnologies.com/</url>
+		<name>Ollegroup Consulting</name>
+		<url>http://ollegroup.com/</url>
 	</organization>
 
 	<properties>
@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:192.168.0.202:9000/</sonar.host.url>
+		<sonar.host.url>http://dev.ollegroup.com:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>admin2@#</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Snapshots Nexus Repository</name>
-	      <url>http://sonarnexus.ollegroup.com:8082/repository/ebay-bts-snapshot/</url>
+	      <name>Ollegroup Consulting Snapshots Nexus Repository</name>
+	      <url>http://dev.ollegroup.com:8081/repository/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository </name>
-	      <url>http://sonarnexus.ollegroup.com:8082/repository/ebay-bts-releases/</url>
+	      <name>Ollegroup Consulting Releases Nexus Repository </name>
+	      <url>http://dev.ollegroup.com:8081/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
